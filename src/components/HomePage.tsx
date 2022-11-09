@@ -7,10 +7,10 @@ export const HomePage = () => {
       <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
         <p className="text-black">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-gray-700">
-          Ada Lovelace
+          Lise B. Ullevålseter
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold text-[#848794]">
-          I´m a developer.
+          I aim to become a developer
         </h2>
         <p className="text-[#848794] py-4 max-w-[700px]">
           Thanks for visiting my page, feel free to check out my portifolio

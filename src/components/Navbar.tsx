@@ -34,6 +34,12 @@ export const Navbar = () => {
             Projects
           </Link>
         </li>
+        <li className="border-4 border-indigo-600">
+          <Link to="projects" smooth={true} duration={500}>
+            {/* TODO: the users should be able to see my pdf resume in a new tab */}
+            Resume
+          </Link>
+        </li>
       </ul>
 
       <div onClick={handleClick} className="md:hidden z-10">
@@ -70,6 +76,11 @@ export const Navbar = () => {
             duration={500}
           >
             Projects
+          </Link>
+        </li>
+        <li className="py-6 text-4xl border-4 border-indigo-600">
+          <Link onClick={handleClick} to="" smooth={true} duration={500}>
+            Resume
           </Link>
         </li>
       </ul>

@@ -1,4 +1,7 @@
 import React from "react";
+import { HorizontalCard } from "./HorizontalCard";
+
+import Portrait from "../assets/logo.png";
 
 const Projects = () => {
   return (
@@ -10,6 +13,11 @@ const Projects = () => {
               Projects
             </p>
           </div>
+
+        </div>
+        <div>
+            {/* <img src={Portrait} alt="" /> */}
+            <HorizontalCard></HorizontalCard>
         </div>
       </div>
     </div>

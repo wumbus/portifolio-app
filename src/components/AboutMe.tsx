@@ -14,10 +14,11 @@ const AboutMe = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-3xl ">
-            <p>Hi. I´m Ada, nice to meet you. Pleace take a look around.</p>
+            <p>Hi. I´m Lise, nice to meet you. Pleace take a look around.</p>
           </div>
           <div>
-            <p>I am passionate about tech and solving problems with code.</p>
+            <p className="pb-4">I am 20 years old student. I currently in my 3rd of a 5 year long integrated master’s in computer science, with a specialization within software. The education will earn me the title Master of Science (Norwegian: sivilingeniør).</p>
+            <p>I am a hardworking and motivated student who enjoys challenges. I am always ready to learn something new, especially when related to IT. I am not afraid of responsibility, and I able to organize projects and co-workers. I never give up before a problem is solved, and I am not afraid to ask for help either. I enjoy both working alone and within a group.</p>
           </div>
         </div>
       </div>
